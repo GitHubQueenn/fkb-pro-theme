@@ -13,6 +13,9 @@ $light-theme-fkb-btn: #{$light_btn};
 $dark-theme-fkb-btn-hover: #{$dark_btn_hover};
 $light-theme-fkb-btn-hover: #{$light_btn_hover};
 
+$tagbglight: #{f0f2f5};
+$tagbgdark: #{3a3b3c};
+
 $fkb-bg: dark-light-choose($light-theme-fkb-bg, $dark-theme-fkb-bg);
 $fkb-header-btn: dark-light-choose($light-theme-fkb-header-btn, $dark-theme-fkb-header-btn);
 $fkb-header-btn-hover: dark-light-choose($light-theme-fkb-header-btn-hover, $dark-theme-fkb-header-btn-hover);
