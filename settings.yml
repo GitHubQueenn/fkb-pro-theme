@@ -1,5 +1,5 @@
 topic_image_height: 
-  default: "300px"
+  default: "550px"
   description: "Change the topic list image (thumbnail) section height."
 topic_image_fit:
   default: cover
@@ -11,13 +11,13 @@ topic_image_fit:
   description: "Select the topic list image (thumbnail) fit. More info: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit"
 topic_image_backdrop:
   type: bool
-  default: false
+  default: true
   description: "Add backdrop to topic list image (thumbnail)."
 topic_image_backdrop_blur: 
   default: "50px"
   description: "Change the topic_image_backdrop blur size. Set a lower value for less blurred backdrop image."
 topic_image_backdrop_brightness: 
-  default: "0.65"
+  default: "0.55"
   description: "Change the topic_image_backdrop brightness size. Set a lower value for less bright backdrop image."
 
 category_badge_style:
@@ -44,7 +44,7 @@ right_sidebar_blocks_expanded:
   
 custom_sidebar_enabled:
   type: bool
-  default: false
+  default: true
   description: "Custom sidebar content for visitor."
 custom_sidebar_image:
   type: upload
@@ -54,10 +54,11 @@ custom_sidebar_description:
   type: string
   textarea: true
   default: |
-            <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           GoNomad is all about discussing privacy and security-related topics;
+           however, you can also talk about off-topic things if you'd like!
+           With an account, you can make posts & replies, have notifications,
+           earn custom badges, bookmark posts, use "likes" to thank others and much more.
+           We can all work together to make this community even greater. 
   description: "Custom sidebar description for visitors. (HTML allowed)"
   
 fkb_panel_items:
@@ -89,7 +90,7 @@ fkb_panel_items:
     }
 fkb_panel_show_solutions:
   type: bool
-  default: false
+  default: true
   description: "Enable if you use Discourse Solved plugin."  
 fkb_panel_show_badges:
   type: bool
@@ -136,7 +137,7 @@ dark_header_btn_hover:
   default: "rgba(var(--primary-rgb),.1)"
   description: "Dark header buttons hover color"
 light_btn:
-  default: "#e1e5eb"
+  default: "#c2c8d1"
   description: "Light buttons color"
 dark_btn:
   default: "#383838"

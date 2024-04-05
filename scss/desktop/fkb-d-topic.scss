@@ -172,12 +172,14 @@
   max-width: var(--avatar-post-width);
 }
 
-.topic-area > .loading-container {
-  width: var(--topic-post-full-width);
-  @media screen and (max-width: 924px) {
-    width: 100%;
-  } 
-}
+.topic-area > .loading-container,
+.topic-above-footer-buttons-outlet.presence,
+#topic-footer-buttons,
+.more-topics__container {
+    width: var(--wo-avatar-width); // without avatar width
+    margin-left: calc(60px + 1em); // avatar width + distance between avatar and body
+  }
+
 
 .topic-status-info,
 .topic-timer-info {

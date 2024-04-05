@@ -1,35 +1,35 @@
 {
   "name": "FKB Pro theme",
   "license_url": null,
-  "about_url": "https://github.com/VaperinaDEV/fkb-pro-theme",
+  "about_url": "/",
   "authors": null,
   "assets": {
   },
   "color_schemes": {
     "FKB Pro - Light": {
-      "primary": "242526",
+      "primary": "050505",
       "secondary": "ffffff",
-      "tertiary": "147efb",
-      "quaternary": "147efb",
+      "tertiary": "0064d1",
+      "quaternary": "0064d1",
       "header_background": "ffffff",
-      "header_primary": "242526",
-      "highlight": "147efb",
-      "selected": "c3dffd",
-      "hover": "dcecfe",
+      "header_primary": "050505",
+      "highlight": "0064d1",
+      "selected": "f0f2f5",
+      "hover": "e3e5e8",
       "danger": "f8745c",
       "success": "42b72a",
       "love": "fa6c8d"
     },
     "FKB Pro - Dark": {
-      "primary": "ffffff",
+      "primary": "dee1e6",
       "secondary": "242526",
-      "tertiary": "147efb",
+      "tertiary": "2b88f3",
       "quaternary": "4267b2",
       "header_background": "242526",
-      "header_primary": "ffffff",
+      "header_primary": "dee1e6",
       "highlight": "147efb",
-      "selected": "033876",
-      "hover": "022c5d",  
+      "selected": "2f3031",
+      "hover": "2f3031",  
       "danger": "f8745c",
       "success": "42b72a",
       "love": "fa6c8d"
@@ -38,5 +38,5 @@
   "modifiers": {
     "serialize_topic_excerpts": true
   },
-  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+  "learn_more": "/"
 }

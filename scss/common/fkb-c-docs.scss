@@ -22,9 +22,6 @@
           .link-bottom-line {
             padding: 0;
             font-size: var(--font-0);
-            html.mobile-view & {
-              font-size: var(--font-down-1);
-            }
           }
           .topic-excerpt {
             display: none;
