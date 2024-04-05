@@ -148,3 +148,9 @@ light_btn_hover:
 dark_btn_hover:
   default: "rgba(var(--primary-rgb),.1)"
   description: "Dark buttons hover color"
+tagbglight:
+  default: "#f0f2f5"
+  description: "Light tag BG"
+tagbgdark:
+  default: "#3a3b3c"
+  description: "Dark tag BG"
