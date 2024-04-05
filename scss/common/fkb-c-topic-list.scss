@@ -115,6 +115,7 @@
       .discourse-tags {
         display: flex;
         margin: 1em 0 0 0;
+        /* justify-content: center; */
         a {
           display: inherit;
           flex: 1 0 auto;
@@ -125,9 +126,9 @@
           border: 0.5em solid transparent;
           /* color: #000000 !important; */
           color: var(--secondary-low) !important;
-          background: dark-light-choose(#f0f2f5, #3a3b3c) !important;
-/*        background: var(--blend-primary-secondary-5) !important;
-          background: #9f9f9f !important; */
+/*           background: dark-light-choose(#f0f2f5, #3a3b3c) !important; */
+          background: var(--blend-primary-secondary-5) !important;
+/*           background: #9f9f9f !important; */
           font-size: var(--font-down-1-rem);
           margin: 0.25em;
           border-radius: var(--d-default-border-radius);
