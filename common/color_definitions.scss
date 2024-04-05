@@ -15,6 +15,7 @@ $light-theme-fkb-btn-hover: #{$light_btn_hover};
 
 $tagbglight2: #{$tagbglight};
 $tagbgdark2: #{$tagbgdark};
+$fkb-tags: dark-light-choose($tagbglight2, $tagbgdark2);
 
 $fkb-bg: dark-light-choose($light-theme-fkb-bg, $dark-theme-fkb-bg);
 $fkb-header-btn: dark-light-choose($light-theme-fkb-header-btn, $dark-theme-fkb-header-btn);
