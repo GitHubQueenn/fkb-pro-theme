@@ -14,7 +14,9 @@
   background-repeat: no-repeat;
   background-position: center;
 } */
-
+span.topic-excerpt-more {
+  font-weight: bolder !important;
+}
 body {
   background: var(--fkb-bg);
 }
