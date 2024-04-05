@@ -25,4 +25,5 @@ $fkb-btn-hover: dark-light-choose($light-theme-fkb-btn-hover, $dark-theme-fkb-bt
   --fkb-header-btn-hover: #{$fkb-header-btn-hover};
   --fkb-btn: #{$fkb-btn};
   --fkb-btn-hover: #{$fkb-btn-hover};
+  --tag-bgs: dark-light-choose(#f0f2f5, #3a3b3c);
 }
