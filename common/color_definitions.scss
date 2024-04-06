@@ -19,10 +19,10 @@ $fkb-header-btn-hover: dark-light-choose($light-theme-fkb-header-btn-hover, $dar
 $fkb-btn: dark-light-choose($light-theme-fkb-btn, $dark-theme-fkb-btn);
 $fkb-btn-hover: dark-light-choose($light-theme-fkb-btn-hover, $dark-theme-fkb-btn-hover);
 
-$dark-theme-ins: #3a3b3c;
-$light-theme-ins: #f0f2f5;
+$tagsdark: #3a3b3c;
+$tagslight: #f0f2f5;
 
-$tag-bgs: dark-light-choose($light-theme-ins, $dark-theme-ins);
+$tag-bgs: dark-light-choose($tagslight, $tagsdark);
 
 :root {
   --fkb-bg: #{$fkb-bg};
