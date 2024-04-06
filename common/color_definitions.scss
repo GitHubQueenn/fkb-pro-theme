@@ -20,9 +20,9 @@ $fkb-btn: dark-light-choose($light-theme-fkb-btn, $dark-theme-fkb-btn);
 $fkb-btn-hover: dark-light-choose($light-theme-fkb-btn-hover, $dark-theme-fkb-btn-hover);
 
 $tagsdark: #3a3b3c;
-$tagslight: #f0f2f5;
+$tagslight: #e6e6e6;
 $sidebarhighlightdark: #3a3b3c !important;
-$sidebarhighlightlight: #f0f2f5 !important;
+$sidebarhighlightlight: #e6e6e6 !important;
 
 $tag-bgs: dark-light-choose($tagslight, $tagsdark);
 $sidehighlight-bgs: dark-light-choose($sidebarhighlightlight, $sidebarhighlightdark);
