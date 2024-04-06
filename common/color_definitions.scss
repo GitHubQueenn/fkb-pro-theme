@@ -21,8 +21,11 @@ $fkb-btn-hover: dark-light-choose($light-theme-fkb-btn-hover, $dark-theme-fkb-bt
 
 $tagsdark: #3a3b3c;
 $tagslight: #f0f2f5;
+$sidebarhighlightdark: #3a3b3c !important;
+$sidebarhighlightlight: #f0f2f5 !important;
 
 $tag-bgs: dark-light-choose($tagslight, $tagsdark);
+$sidehighlight-bgs: dark-light-choose($sidebarhighlightlight, $sidebarhighlightdark);
 
 :root {
   --fkb-bg: #{$fkb-bg};
@@ -31,4 +34,5 @@ $tag-bgs: dark-light-choose($tagslight, $tagsdark);
   --fkb-btn: #{$fkb-btn};
   --fkb-btn-hover: #{$fkb-btn-hover};
   --tag-bgs2: #{$tag-bgs};
+  --sidehighlight-bgs2: #{$sidehighlight-bgs};
 }
